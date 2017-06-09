@@ -1,8 +1,8 @@
 // console.log(process.argv);
 var array = (process.argv[2]).replace("[","").replace("]","").split(',');
-console.log(array);
-console.log(typeof(array));
-console.log(array.length);
+// console.log(array);
+// console.log(typeof(array));
+// console.log(array.length);
 
 function findConsecutiveRuns() {
   var newArray = [];
